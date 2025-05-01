@@ -34,8 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // OpenAI API configuration
-   // const OPENAI_API_KEY = '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'; // Replace with your actual API key
-    const OPENAI_API_KEY = 'KEY'; // Replace with your actual API key
+    const OPENAI_API_KEY = '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'; // Replace with your actual API key
     const OPENAI_API_URL = 'https://api.openai.com/v1/chat/completions';
 
     // Search functionality
