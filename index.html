@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Mobile Feed</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-top">
+                <div class="logo">LinkedIn</div>
+                <div class="header-icons">
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-envelope"></i>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+        </header>
+        <!-- Search Section -->
+        <div class="search-section">
+            <div class="search-extension">
+                <div class="search-tabs"></div>
+                <div class="search-results"></div>
+            </div>
+            <div class="search-bar-container">
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="How can Linkedin help you today?">
+                    <button class="sparkle-btn">
+                        <i class="fas fa-star"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="search-backdrop"></div>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Post Creation -->
+            <div class="create-post">
+                <div class="profile-pic">
+                    <img src="https://via.placeholder.com/40" alt="Profile Picture">
+                </div>
+                <div class="post-input">
+                    <textarea placeholder="Start a post"></textarea>
+                    <div class="post-options">
+                        <button class="option-btn">
+                            <i class="fas fa-photo-video"></i>
+                            <span>Photo/Video</span>
+                        </button>
+                        <button class="option-btn">
+                            <i class="fas fa-tag"></i>
+                            <span>Tag</span>
+                        </button>
+                        <button class="option-btn">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Location</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Posts -->
+            <div class="posts">
+                <!-- Post 1 -->
+                <div class="post">
+                    <div class="post-header">
+                        <div class="user-info">
+                            <img src="https://via.placeholder.com/40" alt="User 1">
+                            <div class="user-details">
+                                <span class="name">John Doe</span>
+                                <span class="time">2h</span>
+                            </div>
+                        </div>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                    <div class="post-content">
+                        <p>Just finished a great project with my team! #success #teamwork</p>
+                        <img src="https://via.placeholder.com/300x200" alt="Project Image">
+                    </div>
+                    <div class="post-actions">
+                        <button class="action-btn">
+                            <i class="far fa-thumbs-up"></i>
+                            <span>Like</span>
+                        </button>
+                        <button class="action-btn">
+                            <i class="far fa-comment"></i>
+                            <span>Comment</span>
+                        </button>
+                        <button class="action-btn">
+                            <i class="fas fa-share"></i>
+                            <span>Share</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Post 2 -->
+                <div class="post">
+                    <div class="post-header">
+                        <div class="user-info">
+                            <img src="https://via.placeholder.com/40" alt="User 2">
+                            <div class="user-details">
+                                <span class="name">Jane Smith</span>
+                                <span class="time">3h</span>
+                            </div>
+                        </div>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                    <div class="post-content">
+                        <p>Excited to announce our new product launch! 🚀</p>
+                    </div>
+                    <div class="post-actions">
+                        <button class="action-btn">
+                            <i class="far fa-thumbs-up"></i>
+                            <span>Like</span>
+                        </button>
+                        <button class="action-btn">
+                            <i class="far fa-comment"></i>
+                            <span>Comment</span>
+                        </button>
+                        <button class="action-btn">
+                            <i class="fas fa-share"></i>
+                            <span>Share</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Bottom Navigation -->
+        <nav class="bottom-nav">
+            <a href="#" class="nav-item active">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-users"></i>
+                <span>My Network</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-newspaper"></i>
+                <span>Jobs</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-hashtag"></i>
+                <span>Messages</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-user"></i>
+                <span>Me</span>
+            </a>
+        </nav>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
